@@ -1,0 +1,132 @@
+body {
+    background: none repeat scroll 0 0 #EFEFEF;
+    color: #000;
+    margin: 15px 0;
+    text-rendering: optimizelegibility;
+}
+
+.wrapper {
+    background-color: #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 30px;
+}
+
+.widget-wrapper {
+    background-color: #F9F9F9;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px 4px 4px 4px;
+    margin: 0 0 20px;
+    padding: 20px;
+}
+
+.widget-title {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: left;
+}
+
+.content {
+    margin: 40px 0 20px 20px;
+}
+
+.sidebar {
+    margin: 40px 20px 20px 0;
+}
+
+.sidebar-left .content {
+    margin: 40px 20px 20px 0;
+}
+
+.sidebar-left .sidebar {
+    margin: 40px 0 20px 20px;
+}
+
+.no-sidebar .content {
+    margin: 40px 20px 20px 20px;
+}
+
+.site-name {
+  margin: 10px 0;
+  font-family: inherit;
+  font-size: 38.5px;
+  font-weight: bold;
+  line-height: 40px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+ul.sponsors {
+    margin: 0;
+    padding: 0;
+}
+
+ul.sponsors li {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+ul.sponsors img {
+    max-width: 100%;
+}
+
+.widget-wrapper ul.sponsors {
+    text-align: center;
+}
+
+.widget-wrapper ul.sponsors li {
+    margin-left: 0;
+}
+
+.madcamp-body {
+    background-color: #ffffff;
+    border: 1px solid #D6D6D6;
+    border-radius: 6px;
+    color: inherit;
+}
+
+.madcamp-logo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.madcamp-details {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.madcamp-date,
+.madcamp-time,
+.madcamp-location,
+.madcamp-address,
+.madcamp-address2,
+.madcamp-map-register {
+    white-space:nowrap;
+}
+
+.madcamp-location,
+.madcamp-map-register {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .content {
+        margin: 40px 20px 20px 20px;
+    }
+
+    .sidebar {
+        margin: 40px 20px 20px 20px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .madcamp-logo {
+        text-align: left;
+    }
+
+}

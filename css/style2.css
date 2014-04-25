@@ -1,0 +1,103 @@
+/*
+ Theme Name:     MadCamp
+ Theme URI:      http://barcampmadison.org/
+ Description:    Theme for Barcamp Madison and Madison Citycamp
+ Author:         Andrew Shell
+ Author URI:     http://blog.andrewshell.org/
+ Version:        0.1.0
+ */
+
+body {
+    background: none repeat scroll 0 0 #EFEFEF;
+    margin: 15px 0;
+    text-rendering: optimizelegibility;
+}
+
+.wrapper-left, .wrapper-right {
+	margin: 15px;
+}
+
+.widget {
+	background-color: #f9f9f9;
+	border: 1px solid #e5e5e5;
+	border-radius: 6px;
+	color: inherit;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+.widget-title {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+ul.sponsors {
+    margin: 0;
+    padding: 0;
+}
+
+ul.sponsors li {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+ul.sponsors img {
+	max-width: 100%;
+}
+
+.widget ul.sponsors {
+    text-align: center;
+}
+
+.widget ul.sponsors li {
+    margin-left: 0;
+}
+
+.madcamp-body {
+	background-color: #ffffff;
+	border: 1px solid #D6D6D6;
+	border-radius: 6px;
+	color: inherit;
+}
+
+.madcamp-logo {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.madcamp-details {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.madcamp-date,
+.madcamp-time,
+.madcamp-location,
+.madcamp-address,
+.madcamp-address2,
+.madcamp-map-register {
+	white-space:nowrap;
+}
+
+.madcamp-location,
+.madcamp-map-register {
+	display: block;
+}
+
+@media (min-width: 768px) {
+
+	.wrapper-left {
+		margin: 15px 0 15px 15px;
+	}
+
+	.wrapper-right {
+		margin: 15px 15px 15px 0;
+	}
+
+	.madcamp-logo {
+		text-align: left;
+	}
+
+}

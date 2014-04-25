@@ -1,0 +1,30 @@
+name: BarCamp Madison
+description: Madison's Unconference
+author: Andrew Shell
+markdown: kramdown
+
+
+navigation:
+- text: Home
+  url: /
+- text: Register
+  url: /register/
+- text: Sessions
+  url: /sessions/
+- text: Sponsors
+  url: /sponsors/
+
+paginate: 10
+
+# Scheme and Hostname for your website without trailing slash
+# (ex: http://andrewshell.github.io)
+url: http://barcampmadison.org
+
+# Folder part of the path to get to your website without trailing slash
+# (ex: /projectname)
+baseurl:
+
+# Code for Google Analytics
+gacode: UA-XXXXX-X
+
+safe: true
